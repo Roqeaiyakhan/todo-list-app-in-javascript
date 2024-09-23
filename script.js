@@ -22,3 +22,11 @@ taskSpan.addEventListener("click", toggleComplete);
     deleteBtn.textContent = "Delete";
     deleteBtn.classList.add("delete-btn");
     deleteBtn.addEventListener("click", deleteTask);
+
+
+    // append the list item :append = jor na
+    listItem.appendChild(taskSpan);
+    listItem.appendChild(deleteBtn);
+
+//append the todoList
+    todoList.appendChild(listItem);
