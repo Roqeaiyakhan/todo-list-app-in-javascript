@@ -15,3 +15,10 @@ const listItem = document.createElement("li");
 const taskSpan = document.createElement("span");
 taskSpan.textContent = taskText;
 taskSpan.addEventListener("click", toggleComplete);
+
+
+    // Delete Btn
+    const deleteBtn = document.createElement("button");
+    deleteBtn.textContent = "Delete";
+    deleteBtn.classList.add("delete-btn");
+    deleteBtn.addEventListener("click", deleteTask);
