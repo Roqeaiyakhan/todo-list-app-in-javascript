@@ -45,3 +45,23 @@ button:hover {
     background-color: #218838;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: grey;
+}
+
