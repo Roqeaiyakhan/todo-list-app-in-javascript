@@ -18,6 +18,7 @@ body {
     width: 400px;
     height: 250px;
     text-align: center;
+    overflow-y:scroll ;
 }
 
 /* Title styling */
