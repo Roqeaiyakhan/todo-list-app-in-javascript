@@ -11,7 +11,7 @@ function addTask() {
     var li = document.createElement('li');
     li.textContent = taskInput.value;
 
-    // Create a remove button
+
     var removeButton = document.createElement('button');
     removeButton.textContent = 'Delete';
     removeButton.className = 'remove-btn';
@@ -19,15 +19,15 @@ function addTask() {
         taskList.removeChild(li);
     };
 
-    // Add click event to mark as completed
+    
     li.onclick = function () {
         li.classList.toggle('completed');
     };
 
-    // Append the remove button to the list item
+    
     li.appendChild(removeButton);
 
-    // Append the list item to the task list
+    g
     taskList.appendChild(li);
 
     // Clear the input field
